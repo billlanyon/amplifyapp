@@ -1,0 +1,15 @@
+projects:
+  notesapp-staging:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: eu-central-1
+        apiId: ytj7n6wgzrbvhlxzio3zktmfeq
+        maxDepth: 2
